@@ -1,33 +1,31 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="KGAME"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「Kのドキドキ告白大作戦」[l][r]
 
-メロスは激怒した。[l][r]
+Kは幼馴染J子に告白する[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+J子を屋上に呼び出した[l][r]
 
-(中略)[l][r]
+K「実は話があるんだ」[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+[link target=*tag_sleep] →「僕の花嫁になってくれえ！！」 [endlink][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+
+[link target=*tag_run] →「実は小学生のころからJ子のことが好きで将来、結婚を前提にお付き合いしていただけませんか？」 [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+J子「ちょっと痛すぎてきついなあ・・・」[l][r]
+J子「ごめんね。Kのこと気になってたけど蛙化したわ」[r]
 
 【 BAD END 】[l][cm]
 
@@ -35,12 +33,11 @@
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
-
+J「そんなに私の未来を考えてくれてるんだ。嬉しい。」[l][r]
+Ｊ「是非お願いします！」[l][r]
 【 GOOD END 】[l][cm]
 
 [jump target=*start]
